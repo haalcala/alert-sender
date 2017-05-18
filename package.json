@@ -1,0 +1,23 @@
+{
+  "name": "alert-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haalcala/alert-sender.git"
+  },
+  "author": "Harold Alcala",
+  "email": "harold.alcala@gmail.com",
+  "dependencies": {
+    "aws-sdk": "2.0.0-rc9"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
+  }
+}
