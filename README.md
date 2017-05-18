@@ -1,11 +1,5 @@
 To install:
 
-Update your package.json with the following:
-
-	"vcalert-sender": "https://files.vcube.sg/vcalert-sender.tar.gz"
-
-or to manually install
-
 	npm install alert-sender --save
 
 Usage:

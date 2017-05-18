@@ -1,9 +1,8 @@
 {
   "name": "alert-sender",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "To install:",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "test": "make test"
   },
@@ -19,5 +18,19 @@
   "devDependencies": {
     "chai": "^2.2.0",
     "mocha": "^2.2.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/haalcala/alert-sender/issues"
+  },
+  "homepage": "https://github.com/haalcala/alert-sender",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "alert",
+    "notification",
+    "aws",
+    "sns"
+  ],
+  "license": "ISC"
 }
