@@ -29,11 +29,6 @@ To configure:
 			username			: "",
 			password			: "",
 			sender				: "",
-		},
-		vcube_gate: { // not supported yet
-			username			: "",
-			password			: "",
-			group_name 			: "",
 		}
 	});
 
