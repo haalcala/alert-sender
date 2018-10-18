@@ -1,6 +1,6 @@
 {
   "name": "alert-sender",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "To install:",
   "main": "index.js",
   "scripts": {

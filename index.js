@@ -35,8 +35,9 @@ exports.configure = function(__configuration) {
 				type = name;
 			}
 
-			if (!type && allowed_types.indexOf(name) == -1) {
-				throw "unknown type '" + configuration.type + "'";
+			if (!type || allowed_types.indexOf(name) == -1) {
+				// throw "unknown type '" + configuration.type + "'";
+				continue;
 			}
 
 			console.log("validation", validation);
